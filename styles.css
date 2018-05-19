@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 55px;
+  background: url('./timer.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  position: relative;
+}
+
+.button-start {
+  position: absolute;
+  top: 83px;
+  left: 896px;
+  width: 62px;
+  height: 20px;
+}
+
+.button-stop {
+  position: absolute;
+  top: 83px;
+  left: 970px;
+  width: 54px;
+  height: 20px;
+}
+
+.button-reset {
+  position: absolute;
+  top: 295px;
+  left: 928px;
+  width: 66px;
+  height: 20px;
+}
+
+.stopwatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 148px;
+  left: 824px;
+  width: 269px;
+  height: 105px;
+  background: rgb(0,0,0,0.5)
+}
